@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(186, 221, 224);
+}
+
+.container{
+    height: 80vh;
+    width: 80vw;
+    display: inline-block;
+    background-color: rgb(107, 171, 149);
+    border-radius: 1rem;
+}
+#nav{
+    height: 7vh;
+    width: 80vw;
+    border-radius: 1rem;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+#timmer-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ; 
+}
+label{
+    font-size: 1.5rem;
+    margin-right: 9px;
+}
+#timmer{
+    height: 4vh;
+    width: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: rgb(146, 219, 214);
+}
+#score-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+#number-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+#random-number{
+    height: 4vh;
+    width: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: rgb(146, 219, 214);
+}
+#score{
+    height: 4vh;
+    width: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: rgb(146, 219, 214);
+}
+#bubbles{
+    height: 73vh;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.balls{
+    height: 6vh;
+    width: 6vh;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.1vh;
+    background-color: aqua;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+#game-over{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#game-over-text{
+    font-size: 9rem;
+}
+.finalbox{
+    background-color: aquamarine;
+    padding: 2vh 2vw;
+    border-radius: 1.2rem;
+    font-size: 1rem;
+    color: rgb(66, 42, 6);
+}
+#final-score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
